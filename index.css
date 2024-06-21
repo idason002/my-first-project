@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+header {
+    background: url("image-2.jpg") no-repeat center center/cover;
+    width: 100%;
+    color: #fff;
+    height: 90vh;
+    text-align: center;
+    padding: 1rem;
+}
+
+#showcase {
+    padding: 10px 10px;
+}
+
+header h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+header p {
+    margin: 1rem;
+    font-size: 20px;
+}
+
+.section h4 {
+    font-size: 2rem;
+}
+
+/* h1, */
+h2,
+h3 {
+    padding-bottom: 20px;
+
+}
+
+h1 {
+    
+    margin-top: 10px;
+}
+
+
+
+/* Reusable classes */
+.container {
+    width: 95%;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: black;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    text-transform: capitalize;
+    padding: 7px 13px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.btn:hover {
+    background-color: #f7c08a;
+    
+
+}
+
+p {
+    margin: 10px 0;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #147aed;
+}
+
+/* navbar */
+#navbar {
+    color: #fff;
+    width: 100%;
+    height: 80px;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 15px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+
+#navbar ul li a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+
+    color: #f7c08a;
+}
+
+
+.text-primary {
+    color: #f7c08a;
+
+}
+
+
+.lead {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+    
+}
+
+#showcase .btn {
+    font-size: 18px;
+    padding: 13px 20px;
+    /* background-color: #fff;
+    color: #000000; */
+    border-radius: 5px;
+
+}
+
+
+.btn-light {
+    background: #f7c08a;
+    color: #333;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+    line-height: 1.7rem;
+    align-items: center;
+    
+
+}
+
+.bg-light {
+    background-color: #fff;
+    color: #333;
+
+}
+
+.bg-primary {
+    background-color: #f7c08a;
+    color: #fff;
+
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+/* About Info */
+
+#about-info {
+    width: 100%;
+}
+
+#about-info .info-right {
+    height: 400px;
+    /* display: block;
+    flex-direction: row; */
+
+}
+
+#about-info .container {
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+
+}
+
+#about-info .info-right {
+    display: flex;
+    align-items: center;
+}
+
+#about-info .info-right img {
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 2rem;
+
+}
+
+#about-info .info-left {
+    display: block;
+    width: 70%;
+    min-height: 100%;
+    padding: 20px 10px;
+
+
+
+
+}
+
+
+h5 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#main-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 70px;
+    padding: 10px;
+}
+
+
+
+/* Features */
+
+#contact-info {
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 10px;
+    gap: 10px;
+
+}
+
+#contact-form .container {
+    margin: 1rem 0;
+    
+
+}
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+    
+}
+
+#contact-info .box {
+    padding: 10px;
+    
+    /* border-radius: 10px; */
+}
+
+
+/* Hme-info */
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: inline-start;
+    width: 50%;
+    background: url("image-6.jpg") no-repeat center center/cover;
+    min-height: 100%;
+
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+
+}
+
+/* Testimonials */
+h6 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding: 50px;
+}
+
+
+#testimonials {
+    background: url("image-6.jpg") no-repeat center center/cover;
+    height: 600px;
+
+
+}
+
+#testimonials .container img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+
+
+}
+
+#testimonials .testimonial {
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
